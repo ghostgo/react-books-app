@@ -12,7 +12,7 @@ class BookService {
     }
 
     getBooks = async (query) => {
-        const res = await this.getResource(`${this._apiBase}?q=${query}&maxResults=20&${this._apiKey}`);
+        const res = await this.getResource(`${this._apiBase}?q=${query}&maxResults=40&${this._apiKey}`);
         return res.items.map(this.transformBook);
     }
 
