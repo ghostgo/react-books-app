@@ -1,0 +1,25 @@
+.book {
+    &__descr {
+        margin-bottom: 50px;
+    }
+
+    &__color {
+        margin-top: 30px;
+        background-color: #aeda64;
+    }
+
+    &__img {
+        width: 300px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    &__back {
+        margin-top: 30px;
+    }
+
+    &__store {
+        margin-bottom: 30px;
+    }
+
+}
